@@ -1,0 +1,36 @@
+.testimonial-card {
+  grid-column: auto;
+  grid-row: 2;
+  min-height: 22.75rem;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 1rem;
+  background-color: #ffffff;
+  border-radius: 1rem;
+}
+
+.testimonial-card img {
+  width: 6.6rem;
+  height: 6.6rem;
+  object-fit: cover;
+  margin: 0 auto 0.5rem auto;
+  border-radius: 50%;
+}
+
+.testimonial-card h4 {
+  margin: 0 auto 1rem auto;
+}
+
+.testimonial-card span {
+  color: #f4ce14;
+}
+
+/*-- Media queries ------------------------------------------------------*/
+
+@media (max-width: 949px) {
+  .testimonial-card {
+    grid-column: auto;
+    grid-row: auto;
+  }
+}
